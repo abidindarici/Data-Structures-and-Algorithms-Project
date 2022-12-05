@@ -1,16 +1,12 @@
-GÖREV-1:	1.AŞAMA [2,27,16,22,18,6]	DİZİNİN EN KÜÇÜK ELEMANI BULUNUR VE EN BAŞTAKİ İLE YER DEĞİŞTİRİR.
-			2.AŞAMA [2,6,16,22,18,27]	2’NCİ EN KÜÇÜK ELEMAN BULUNUR VE 2’NCİ SIRAYA GETİRİLİR.
-			3.AŞAMA [2,6,16,22,18,27]	3’ÜNCÜ EN KÜÇÜK ELEMAN ZATEN SIRASINDA İŞLEM YAPILMAZ.
-			4.AŞAMA [2,6,16,18,22,27]	4’ÜNCÜ EN KÜÇÜK ELEMAN BULUNUR VE 4’ÜNCÜ SIRAYA GETİRİLİR.
-			5.AŞAMA [2,6,16,18,22,27]	5’İNCİ EN KÜÇÜK ELEMAN YERİNDE İŞLEM YAPILMAZ.
+GÖREV-1:
+		1- [16,21,11,8,12,22]
+		2- [16,21,11][8,12,22]
+		3- [16,21][11][8,12][22]
+		4- [16][21][11][8][12][22]
+		5- [16,21] [8,11] [12,22]
+		6- [8,11,16,21] [12,22]
+		7- [8,11,12,16,21,22] (SONUÇ)
 
-GÖREV-2:	BİG-O DEĞERİ = O(n^2)
-
-GÖREV-3:	AVARAGE CASE
-
-GÖREV-4:	1.AŞAMA [2,3,5,8,7,9,4,15,6]
-			2.AŞAMA [2,3,5,8,7,9,4,15,6]
-			3.AŞAMA [2,3,4,8,7,9,5,15,6]
-			4.AŞAMA [2,3,4,5,7,9,8,15,6]
-
-			www.patika.dev
+GÖREV-2:	
+		2^x=n -> logn=x
+		Big O Notation : O(nlogn)

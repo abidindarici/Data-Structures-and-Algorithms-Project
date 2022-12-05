@@ -1,16 +1,11 @@
-GÖREV-1:	1.AŞAMA [2,27,16,22,18,6]	DİZİNİN EN KÜÇÜK ELEMANI BULUNUR VE EN BAŞTAKİ İLE YER DEĞİŞTİRİR.
-			2.AŞAMA [2,6,16,22,18,27]	2’NCİ EN KÜÇÜK ELEMAN BULUNUR VE 2’NCİ SIRAYA GETİRİLİR.
-			3.AŞAMA [2,6,16,22,18,27]	3’ÜNCÜ EN KÜÇÜK ELEMAN ZATEN SIRASINDA İŞLEM YAPILMAZ.
-			4.AŞAMA [2,6,16,18,22,27]	4’ÜNCÜ EN KÜÇÜK ELEMAN BULUNUR VE 4’ÜNCÜ SIRAYA GETİRİLİR.
-			5.AŞAMA [2,6,16,18,22,27]	5’İNCİ EN KÜÇÜK ELEMAN YERİNDE İŞLEM YAPILMAZ.
-
-GÖREV-2:	BİG-O DEĞERİ = O(n^2)
-
-GÖREV-3:	AVARAGE CASE
-
-GÖREV-4:	1.AŞAMA [2,3,5,8,7,9,4,15,6]
-			2.AŞAMA [2,3,5,8,7,9,4,15,6]
-			3.AŞAMA [2,3,4,8,7,9,5,15,6]
-			4.AŞAMA [2,3,4,5,7,9,8,15,6]
-
-			www.patika.dev
+GÖREV-1:Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb. 
+		Root =5 olarak kabul edelim. 
+		1 -->5>1 => 1, 5'in soluna 
+		2 --> 5 < 7 , => 7 , 5'in sağına 
+		3 --> 8 >7 ve 5 => 8 , 7'nin sağına 
+		4 --> 5 > 3 , 1 < 3 => 3 , 1'in sağına 
+		5 --> 5 < 6 => 7 , 7'in soluna 
+		6 --> 5 > 0 , 7 > 0 => 0 , 1'in soluna 	
+		7 --> 5 < 9 , 8 < 9 => 9 , 8'in sağına 
+		8 --> 5 > 4 , 1 < 4 , 3 < 4 => 4 , 3'ün sağına 
+		9 --> 5 > 2 , 1 < 2 , 3 < 2 => 2 , 3'ün soluna yazılır. 
